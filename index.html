@@ -5,7 +5,24 @@
 <body>
 hello world how are you
 <script type="text/javascript" src = "fizzbuzzMar18.js">
+var num = prompt("Enter a number and we'll print 'Fizz-Buzz' up to it");
+for (word=0; word<100; word++) {
+	if (num%3==0 && num%5==0) {
+		console.log("FizzBuzz!");
+	}
+	else if (num%3==0) {
+		console.log("Fizz!");
+		} 
+	else if (num%5==0) {
+		console.log("Fizzbuzz!");
+	}
 
+	else{
+		console.log("The number you entered is " + num.toString() 
+			+ " and it is not a multiple of 3 or 5");
+	}
+
+}
 </script>
 </body>
 </html>
