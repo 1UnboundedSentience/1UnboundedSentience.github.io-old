@@ -72,11 +72,11 @@ hr.separetor{
 /*================================
 HERO AREA
 ================================*/
-#hero{
+#banner{
     color: #fff;
     text-align: center;
-    background: url(../img/BlueBackground.png)no-repeat; /*your background image*/
-    max-height: 880px;
+    background: #87cefa;
+    max-height: 1280px;
     overflow: hidden;
 }
 
@@ -91,10 +91,15 @@ HERO AREA
     max-width: 1200px;
 
 }
-.semi-carousel1{
+.proj-pics{
     margin-top: 20px;
     width: 65%;
     max-width: 1200px;
+}
+.semi-carousel1{
+    margin-top: 20px;
+    width: 65%;
+    max-width: 600px;
 }
 
 .semi-carousel.resize{
