@@ -17,6 +17,7 @@ body {
 h2{font-size: 42px;}
 h3{font-size: 28px;}
 h4{font-size: 18px; line-height: 1.4em;}
+li{font-size: 20px;}
 
 p{
     letter-spacing: 1px;
@@ -92,7 +93,7 @@ HERO AREA
 }
 .semi-carousel1{
     margin-top: 20px;
-    width: 25%;
+    width: 65%;
     max-width: 1200px;
 }
 
