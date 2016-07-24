@@ -17,7 +17,7 @@ body {
 h2{font-size: 42px;}
 h3{font-size: 28px;}
 h4{font-size: 18px; line-height: 1.4em;}
-li{font-size: 20px;}
+li{font-size: 12px;}
 
 p{
     letter-spacing: 1px;
@@ -249,6 +249,20 @@ TESTIMONIAL SECTION
     overflow-y: hidden;
     width: 500px;
     height: 240px;
+}
+
+#project-cells1 {
+    border: 1px solid black;
+}
+
+#project-cells2 {
+    border: 1px solid black;
+    border-left: 0;
+}
+
+#project-cells3 {
+    border: 1px solid black;
+    border-left: 0;
 }
 
 blockquote{
